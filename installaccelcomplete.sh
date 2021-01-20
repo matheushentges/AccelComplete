@@ -92,8 +92,8 @@ systemctl restart accel-ppp
 cd /tmp;
 wget http://www.ixcsoft.com.br/atualizacoes/dictionary.accel;
 cat /tmp/dictionary.accel >> /usr/share/accel-ppp/radius/dictionary;
-git clone https://github.com/matheushentges/testessh.git
-cat /tmp/testessh/accelconfgeneral >> /etc/accel-ppp.conf
+git clone https://github.com/matheushentges/ConfAccel.git
+cat /tmp/ConfAccel/accel-ppp.conf >> /etc/accel-ppp.conf
 
 }
 
