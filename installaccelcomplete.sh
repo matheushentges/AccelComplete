@@ -90,7 +90,7 @@ systemctl enable accel-ppp
 systemctl restart accel-ppp
 
 cd /tmp;
-git clone https://github.com/matheushentges/testessh.git
+git clone https://github.com/matheushentges/ConfAccel.git
 cat /tmp/ConfAccel/accel-ppp.conf >> /etc/accel-ppp.conf
 cat /tmp/ConfAccel/dictionary.accel >> /usr/share/accel-ppp/radius/dictionary;
 
