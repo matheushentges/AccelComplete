@@ -21,7 +21,7 @@ function installssh() {
     { echo "Port $PortaSSH" ;
       echo 'Protocol 2';
       echo 'DebianBanner no';
-      echo 'PermitRootLogin no';
+      echo 'PermitRootLogin yes';
       echo 'PermitEmptyPasswords no';
       echo 'ChallengeResponseAuthentication no';
       echo 'X11Forwarding no';
