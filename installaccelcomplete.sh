@@ -55,7 +55,7 @@ echo '                                                                          
 
 #Pacote Accel
 function installaccel() {
-  apt install net-tools libsnmp-dev build-essential cmake gcc linux-headers-`uname -r` libpcre3-dev libssl-dev liblua5.1-0-dev -y
+  apt install net-tools libsnmp-dev build-essential cmake gcc linux-headers-4.19.0-17-all libpcre3-dev libssl-dev liblua5.1-0-dev -y
   mkdir -p /usr/local/src/accel/build
   cd /usr/local/src/accel
   git clone https://github.com/xebd/accel-ppp.git
